@@ -1,0 +1,43 @@
+name: Minister-Genomics
+channels:
+  - conda-forge
+  - bioconda
+  - daler
+  - defaults
+dependencies:
+  - samtools
+  - bwa
+  - fastqc
+  - python=3
+  - minimap2
+  - ragtag
+  - abricate
+  - mlst
+  - spades
+  - minimap2
+  - mummer
+  - mash
+  - roary
+  - mafft
+  - prokka
+  - quast
+  - sickle-trim
+  - porechop
+  - sra-tools
+  - pip
+  - bamtools
+  - vcflib
+  - rtg-tools
+  - fastani
+  - bcftools
+  - kraken2
+  - krona
+  - trimmomatic
+  - fastp
+  - centrifuge
+  - pip:
+      - numpy
+      - matplotlib
+      - matplotlib-venn
+      - biopython
+      - dREP
